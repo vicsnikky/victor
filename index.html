@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Victor's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="">
+  <script src="https://kit.fontawesome.com/1507e7f860.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="loader">
+    <img src="images/loader-2.gif" alt="">
+  </div>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/logo.png" class="logo" alt="my-logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#testimonies">Testimonies</a></li>
+          <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Web Developer</p>
+        <h1>Hi, I'am <span>Victor</span><br> Alo From Nigeria</h1>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+
+
+  <!------about---------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/victor.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra porttitor nisi, sit amet facilisis elit. Phasellus convallis diam id tincidunt porttitor. Quisque in dolor nisi. Fusce rutrum lectus vitae vestibulum congue. Nullam vehicula egestas nunc congue malesuada. Aliquam erat volutpat. Suspendisse commodo libero nec mauris vehicula pharetra. Nunc at dignissim metus. Sed hendrerit iaculis mi, in congue urna mattis ac. Sed laoreet, ex eget pretium imperdiet, tortor nibh egestas lacus, non laoreet leo risus eget nisl.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Web Development</span><br>Web app Development</li>
+              <li><span>Web Development</span><br>Building Adroids/iOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021-Current</span><br>Web app Development Freelancing</li>
+              <li><span>2021-Current</span><br>Building Adroids/iOS apps Freelancing</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2019</span><br>Computer Science at FCE</li>
+              <li><span>2018</span><br>Diploma in Web design at Elite systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+<!---------services------>
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-regular fa-file-word"></i>
+        <h2>MS Office</h2>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+<!---------portfolio----->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/work-1.png" alt="">
+        <div class="layer">
+          <h3>Social Media App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-2.png" alt="">
+        <div class="layer">
+          <h3>Music App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/work-3.png" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/adobe.jpg" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/excel.png" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/word.jpg" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="images/powerpoint.jpg" alt="">
+        <div class="layer">
+          <h3>Online Shopping App</h3>
+          <p>The app connects you to the talented people around the world.
+            Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+
+<hr>
+<div id="testimonies">
+<div class="container-2">
+  <div class="testimonial">
+    <h1 class="sub-title">Testimonies</h1>
+    <div class="testimonial-text">
+      <div class="user-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <span class="adm">Oluwanisola A, CEO Nisola Tech</span>
+      </div>
+      <div class="user-text active-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <span class="adm">Ogundira Gloria, CEO GlowTouch</span>
+      </div>
+      <div class="user-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <span class="adm">Oluwa A, CEO N-Tech</span>
+      </div>
+      <div class="user-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <span class="adm">Nisola A, CEO Nisola Tech</span>
+      </div>
+      <div class="user-text">
+        <i class="fa-solid fa-quote-left"></i>
+        <p>Suspendisse ut tortor nunc. Donec et purus libero. Phasellus posuere molestie tristique. Nam tincidunt, elit non laoreet mollis, nisl justo interdum augue, in auctor lectus nunc et mauris. Quisque tempor lectus vel bibendum accumsan. Sed eu finibus nunc.</p>
+        <span class="adm">Alo Victor, CEO vikkietech</span>
+      </div>
+    </div>
+    <div class="testimonial-pic">
+      <img src="images/avater-1.png" class="user-pic" onclick="showReview()" alt="">
+      <img src="images/avater-2.png" class="user-pic active-pic" onclick="showReview()" alt="">
+      <img src="images/avater-3.jpg" class="user-pic" onclick="showReview()" alt="">
+      <img src="images/avater4.jpg" class="user-pic" onclick="showReview()" alt="">
+      <img src="images/avater-5.jpg" class="user-pic" onclick="showReview()" alt="">
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+<!------contact---->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i> vicsnikky@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +2347062712735, +2349069680869</p>
+        <div class="social-icons">
+          <a href="https://web.facebook.com/victorifeoluwa1"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/vicsnikky/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form action="https://formspree.io/f/xlekrgyj" method="post">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+    <div class="copyright">
+      <p>Copyright 2022 @ Victor <i class="fa-solid fa-heart"></i>. </p>
+    </div>
+</div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0"
+    } 
+    function closemenu(){
+      sidemenu.style.right = "-200px"
+    }
+  </script>
+
+<script>
+  var loader = document.querySelector(".loader")
+  console.log(loader);
+  window.addEventListener("load", vanish);
+  function vanish(){
+    loader.classList.add("disappear");
+  }
+</script>
+
+<script>
+  let userTexts = document.getElementsByClassName("user-text");
+  let userPics = document.getElementsByClassName("user-pic");
+  function showReview(){
+    for(userPic of userPics){
+      userPic.classList.remove("active-pic");
+    }
+    for(userText of userTexts){
+      userText.classList.remove("active-text");
+    }
+    let i = Array.from(userPics).indexOf(event.target);
+    userPics[i].classList.add("active-pic");
+    userTexts[i].classList.add("active-text");
+  }
+</script>
+
+</body>
+</html>
